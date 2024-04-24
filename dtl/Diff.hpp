@@ -102,7 +102,7 @@ namespace dtl {
             return editDistance;
         }
         
-        Lcs< elem > getLcs () const {
+        const Lcs< elem >& getLcs () const {
             return lcs;
         }
         
@@ -110,7 +110,7 @@ namespace dtl {
             return lcs.getSequence();
         }
         
-        Ses< elem > getSes () const {
+        const Ses< elem >& getSes () const {
             return ses;
         }
         
